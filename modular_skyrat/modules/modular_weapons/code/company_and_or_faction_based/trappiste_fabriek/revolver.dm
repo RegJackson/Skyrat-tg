@@ -14,6 +14,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 	can_suppress = TRUE
+	dual_wield_spread = 10 //its closest equivalent is the thermal pistols. Those also have a less serious dual wield spread. Lose out on AP for 5 more damage and reloads.
 
 /obj/item/gun/ballistic/revolver/sol/give_manufacturer_examine()
 	AddElement(/datum/element/manufacturer_examine, COMPANY_TRAPPISTE)

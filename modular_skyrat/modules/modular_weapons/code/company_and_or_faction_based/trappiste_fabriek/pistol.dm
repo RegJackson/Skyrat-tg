@@ -18,6 +18,7 @@
 	suppressor_y_offset = 0
 
 	fire_delay = 0.3 SECONDS
+	dual_wield_spread = 10 //in line with its closest energy equivalent, the thermal pistols, but it doesn't make people explode and has no ap
 
 /obj/item/gun/ballistic/automatic/pistol/sol/give_manufacturer_examine()
 	AddElement(/datum/element/manufacturer_examine, COMPANY_TRAPPISTE)
